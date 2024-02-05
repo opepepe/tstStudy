@@ -2,13 +2,13 @@
     background: url(../img/phoenix.png) no-repeat center / cover;
     background-attachment: fixed;
     margin: 0;
+    -webkit-text-size-adjust: 100%;
   }
 
 
   .fadein {
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: -2em;
+    margin: 5em auto -2em;
     color: rgb(0, 0, 0);
     opacity: 0;
     animation-name: fadein;
@@ -45,5 +45,11 @@
     100% {
        opacity: 1;
        transform: translateY(0);
+    }
+  }
+
+  @media screen and (max-width:546px) {
+    .fadein_ken {
+      width: 100%;
     }
   }

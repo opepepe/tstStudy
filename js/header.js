@@ -5,7 +5,7 @@ document.write('\
             <label id="humOpen" for="humCheck"><img src="img/humberger.png" alt="メニュー" width="50" height="40"></label>\
             <label id="humClose" for="humCheck"></label>\
             <nav>\
-            <ul class="inner">\
+            <ul>\
                 <li><a href="home.html">ホーム</a></li>\
                 <li><a href="nobeoka.html">延岡市の観光地</a></li>\
                 <li><a href="takanabe.html">高鍋町の観光地</a></li>\
